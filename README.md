@@ -85,14 +85,3 @@ cd api-gateway              && mvn spring-boot:run   # Terminal 6
 ```
 
 The gateway is then reachable at `http://localhost:8080`.
-
----
-
-## Concepts Demonstrated
-
-- SAGA choreography for distributed transactions
-- Event-driven microservices with Kafka topics
-- Real-time, stateful fraud detection with Redis
-- API-gateway rate limiting
-- Inter-service communication (REST clients)
-- Idempotent, resilient money movement
